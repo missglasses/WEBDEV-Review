@@ -1,5 +1,5 @@
 # WEBDEV
 
-Web 1 - HTML, JS, PHP + bootstrap & json?
+Web 1 - HTML, JS, PHP, SQL + bootstrap & json?
 
-Web 2 - Vite+React
+Web 2 - Vite+React , API
