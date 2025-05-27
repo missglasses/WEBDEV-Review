@@ -1,0 +1,139 @@
+/* SORRY KATAGGGGG */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+body {
+  /* background-color: rgb(164, 241, 255); */
+  background-image: url('/GhibliBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   cursor: url('/totoro.cur'), auto;
+  
+}
+
+/* button:hover {
+  /* cursor: url('/totoro-alternate.cur'), pointer; */
+
+/* 
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* CURSORS NI */
+/* .element {
+  cursor: url('/my-react-app/public/totoOpen.png'), auto;
+} */
+
+
+h1 {
+  font-family: 'Rowdies', sans-serif;
+}
+
+.optionsBtn button {
+  color: #4f4f4f;
+  background-color: rgb(217, 212, 212);
+  /* border: 2px solid #388e3c; */
+  padding: 8px 16px;
+  border-radius: 4px;
+  /* cursor: pointer; */
+  cursor: url('/totoro-alternate.cur'), pointer;
+}
+
+.optionsBtn button:hover {
+  background-color: #a0a7a1;
+  color: white;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* THE TASK CARD */
+.task-card {
+  background-color: #e1f5fe;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* gap between the cards */
+  transition: background-color 0.3s ease;
+}
+
+.task-card.checked {
+  background-color: #90caf9; 
+  color: white;
+}
+
+.task-card input[type="text"] {
+  flex-grow: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* REMOVE CARD BTN */
+.remove-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #ff4d4d;
+  padding: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.remove-btn:hover {
+  color: #ff0000;
+}
+
+/* CHECK BUTTON */
+.check-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  /* cursor: pointer; */
+   cursor: url('/totoro-alternate.cur'), pointer;
+  color: #4caf50; 
+  padding: 0 8px;
+  transition: color 0.3s ease;
+}
+
+/* //darker color when hovered kay oa ko */
+.check-btn:hover {
+  color: #388e3c;
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  /* cursor: pointer; */
+   cursor: url('/totoro-alternate.cur'), pointer;
+  color: #ff4d4d; 
+  padding: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.remove-btn:hover {
+  color: #ff0000; 
+}
